@@ -1,0 +1,52 @@
+#container {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#topBox {
+    height: 300px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#bottomContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 450px;
+    background-color: white;
+
+}
+
+#midBotContainer {
+    display: flex;
+    width: 75%;
+    background-color: white;
+    flex-wrap: wrap;
+    background-color: red;
+    /* justify-content: space-between; */
+}
+
+
+.midBoxes {
+    height: 200px;
+    width: 350px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.rightBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24%;
+    background-color: grey;
+}

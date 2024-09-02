@@ -1,0 +1,58 @@
+#container {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#topBox {
+    height: 300px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#midBotContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 450px;
+}
+
+#leftMidBotContainer {
+    display: flex;
+    width: 75%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: blue;
+}
+
+.midBox {
+    display: flex;
+    width: 100%;
+    height: 180px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+#rightMidBotBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24%;
+    background-color: grey;
+}
+
+.buttomBoxes {
+    height: 250px;
+    width: 355px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+}

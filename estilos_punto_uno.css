@@ -1,0 +1,41 @@
+#container {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#topBox {
+    height: 300px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#midBotContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 450px;
+    background-color: white;
+}
+
+.midBotBoxes {
+    width: 74%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rightMidBotBoxes {
+    width: 25%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
